@@ -1,12 +1,12 @@
 # Postmark
 
-[![Build Status](https://travis-ci.org/keighl/postmark.png?branch=master)](https://travis-ci.org/keighl/postmark) [![Go Report Card](https://goreportcard.com/badge/github.com/keighl/postmark)](https://goreportcard.com/report/github.com/keighl/postmark)  [![codecov.io](https://codecov.io/github/keighl/postmark/coverage.svg?branch=master)](https://codecov.io/github/keighl/postmark?branch=master) [![GoDoc](https://godoc.org/github.com/keighl/postmark?status.svg)](https://godoc.org/github.com/keighl/postmark)
+[![Build Status](https://travis-ci.org/p000ic/postmark.png?branch=master)](https://travis-ci.org/p000ic/postmark) [![Go Report Card](https://goreportcard.com/badge/github.com/p000ic/postmark)](https://goreportcard.com/report/github.com/p000ic/postmark)  [![codecov.io](https://codecov.io/github/p000ic/postmark/coverage.svg?branch=master)](https://codecov.io/github/p000ic/postmark?branch=master) [![GoDoc](https://godoc.org/github.com/p000ic/postmark?status.svg)](https://godoc.org/github.com/p000ic/postmark)
 
 A Golang package for the using Postmark API.
 
 ### Installation
 
-    go get -u github.com/keighl/postmark
+    go get -u github.com/p000ic/postmark
 
 ### Basic Usage
 
@@ -14,7 +14,7 @@ Grab your [`Server Token`](https://account.postmarkapp.com/servers/XXXX/credenti
 
 ```go
 import (
-    "github.com/keighl/postmark"
+    "github.com/p000ic/postmark"
 )
 
 client := postmark.NewClient("[SERVER-TOKEN]", "[ACCOUNT-TOKEN]")
